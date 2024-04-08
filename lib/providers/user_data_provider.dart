@@ -17,6 +17,7 @@ class UserDataProvider extends ChangeNotifier {
     _userProfileImageUrl = sharedPref.getString(StorageKeys.userProfileImageUrl) ?? '';
 
     notifyListeners();
+    
   }
 
   Future<void> setUserDataAsync({
